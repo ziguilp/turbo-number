@@ -1,8 +1,8 @@
 {
     "name": "turbo-number",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Number的高精度计算",
-    "main": "index.js",
+    "main": "./dist/index.js",
     "scripts": {
         "dev": "nodemon --config nodemon.json ./index.ts",
         "dev:debug": "nodemon --config nodemon.json --inspect-brk ./index.ts",
@@ -19,7 +19,7 @@
         "typescript": "^4.9.4"
     },
     "keywords": [
-        "number高精度计算"
+        "number简易高精度计算"
     ],
     "author": "turbo",
     "license": "MIT",
